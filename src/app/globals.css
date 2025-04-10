@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@import "./css/theme.css";
+@import "./css/utilities.css";
+@import "./css/components.css";
+
+body {
+  background: linear-gradient(to bottom, #333b49, #1f467e); /* Gradient from dark gray to lighter gray */
+  color: var(--foreground);
+  @apply text-gray-100;
+}
