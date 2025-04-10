@@ -107,11 +107,11 @@ export default function ContactSection() {
         <div className="flex">
             <div className="mx-auto w-full text-center">
                 <SectionHeader title="Contact Me" />
-                <div className="mx-auto w-full max-w-screen-md">
+                <div className="mx-auto w-full max-w-screen-md pb-16">
                     <p className="mb-8 lg:mb-16 font-light text-center text-gray-400 sm:text-3xl md:text-3xl dark:text-gray-300">
                         Have a question, feedback, or just want to say hi? Drop me a message below!
                     </p>
-                    <form onSubmit={handleSubmit} className="space-y-8">
+                    <form onSubmit={handleSubmit} className="space-y-8 relative z-10">
                         {/* Honeypot Field */}
                         <input
                             type="text"

@@ -28,11 +28,11 @@ export default function Sidebar() {
 
       {/* Sidebar */}
       <aside
-        className={`group fixed top-0 left-0 h-screen bg-gray-800 text-gray-200 shadow-xl transition-transform duration-300 z-40 ${
+        className={`group fixed top-0 left-0 min-h-screen bg-gray-800 text-gray-200 shadow-xl transition-transform duration-300 z-40 ${
           isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"
         } md:translate-x-0 ${
           isCollapsed ? "w-24" : "max-w-[20rem]"
-        } flex flex-col items-center p-4`}
+        } flex flex-col items-center p-4 overflow-y-auto`}
       >
         <nav className="flex flex-col gap-2 w-full">
           <SidebarLink
@@ -94,7 +94,7 @@ export default function Sidebar() {
         {/* Overlay for Mobile Menu */}
         {isMobileMenuOpen && (
           <div
-            className="fixed inset-0 bg-black bg-opacity-50 z-30 md:hidden"
+            className="fixed inset-0 bg-opacity-50 z-30 md:hidden"
             onClick={() => setIsMobileMenuOpen(false)}
           ></div>
         )}

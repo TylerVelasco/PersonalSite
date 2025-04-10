@@ -28,7 +28,7 @@ export default function HomeSection() {
                         <DownloadSimple size={64} className="md:w-16 md:h-16 sm:w-8 sm:h-8" />
                     </a>
                     <a
-                        href="https://github.com/your-github-username"
+                        href="https://github.com/TylerVelasco"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
@@ -37,7 +37,7 @@ export default function HomeSection() {
                         <GithubLogo size={64} className="md:w-16 md:h-16 sm:w-8 sm:h-8" />
                     </a>
                     <a
-                        href="https://linkedin.com/in/your-linkedin-username"
+                        href="https://www.linkedin.com/in/tyler-velasco-51388a125"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
